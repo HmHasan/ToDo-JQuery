@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.close 
+{
+    cursor: pointer;
+}
+
+.list-group-item 
+{
+    cursor: grab;
+    color: white;
+}
+
+.list-group-item:nth-child(even)
+{
+    background:#ffba93;
+}
+.list-group-item:nth-child(odd)
+{
+    background:#ff8e71;
+}
